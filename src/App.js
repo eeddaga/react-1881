@@ -48,7 +48,7 @@ class App extends Component {
 
 
           </div>
-          
+
 
 
 
@@ -64,6 +64,11 @@ class App extends Component {
           <Route path="/events" component={EventsContainer} />
           <Route path="/donate" component={DonateContainer} />
           </div>
+
+
+          <footer>
+          &copy; DAGA 2018
+          </footer>
 
 
         </div>
