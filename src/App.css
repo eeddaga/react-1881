@@ -42,10 +42,13 @@
 
 }
 .nav-item a{
+  padding: 30px;
   color: #ffffff;
 }
 
-
+.marquee {
+  font-family: 'Cinzel Decorative', cursive;
+}
 
 .content {
   height: 400px;

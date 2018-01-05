@@ -22,32 +22,38 @@ class App extends Component {
         <div className="container">
 
         <header className="App-header">
-          <img src="https://aaronopia.files.wordpress.com/2016/11/goddess-lady-justice-statue.jpg" className="App-logo" alt="logo" />
 
 
-          <nav className="navbar">
 
+            <nav className="navbar">
+              <li className="nav-item"><Link to="/about">About Us</Link></li>
+              <li className="nav-item"><Link to="/resources">Resources</Link></li>
+              <li className="nav-item"><Link to="/events">Get Involved</Link></li>
+              <li className="nav-item"><Link to="/donate">Donate</Link></li>
+            </nav>
+            <img src="https://aaronopia.files.wordpress.com/2016/11/goddess-lady-justice-statue.jpg" className="App-logo" alt="logo" />
 
-            <li className="nav-item"><Link to="/about">About Us</Link></li>
-            <li className="nav-item"><Link to="/resources">Resources</Link></li>
-            <li className="nav-item"><Link to="/events">Get Involved</Link></li>
-            <li className="nav-item"><Link to="/donate">Donate</Link></li>
+            {/*
+              <div className="row">
+              <div className="col-lg">
+                <h1 className="App-title"><Link to="/">1881 Initiative</Link></h1>
+              </div>
 
-
-          </nav>
-
-
-            <div className="row">
-            <div className="col-lg">
-              <h1 className="App-title"><Link to="/">1881 Initiative</Link></h1>
+              <div className="col-lg">
+                <h3>Committed to Lady AGs</h3>
+              </div>
             </div>
 
-            <div className="col-lg">
-              <h3>Committed to Lady AGs</h3>
+            */}
+            <div className="marquee">
+            <h2>1881 Initiative</h2>
             </div>
 
 
-          </div>
+
+
+
+
 
 
 
