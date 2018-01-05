@@ -23,8 +23,9 @@ class NavContainer extends Component {
         <li><Link to="/donate">Donate</Link></li>
         </ul>
 
-        <Route path="/events" component={EventsContainer} />
         <Route path="/about" component={AboutContainer} />
+        <Route path="/events" component={EventsContainer} />
+
       </div>
       </Router>
 
