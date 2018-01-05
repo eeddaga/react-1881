@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NavContainer from './Components/NavContainer.js';
 import EventsContainer from './Components/EventsContainer.js';
 import AboutContainer from './Components/AboutContainer.js';
+import ResourcesContainer from './Components/ResourcesContainer.js';
 import './App.css';
 
 import {
@@ -22,7 +23,7 @@ class App extends Component {
         <header className="App-header">
           <img src="https://aaronopia.files.wordpress.com/2016/11/goddess-lady-justice-statue.jpg" className="App-logo" alt="logo" />
 
-          <div className="row">
+
 
           <div className="navbar">
             <ul className="navitems">
@@ -35,8 +36,9 @@ class App extends Component {
 
           </div>
 
+            <div className="row">
             <div className="col-md">
-              <h1 className="App-title">1881 Initiative</h1>
+              <h1 className="App-title"><Link to="/">1881 Initiative</Link></h1>
             </div>
 
             <div className="col-md">
@@ -51,8 +53,8 @@ class App extends Component {
         <body>
           <div className="content">
           <Route path="/about" component={AboutContainer} />
+          <Route path="/resources" component={ResourcesContainer} />
           <Route path="/events" component={EventsContainer} />
-
           </div>
         </body>
 

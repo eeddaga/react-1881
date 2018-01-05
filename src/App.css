@@ -28,12 +28,27 @@
   padding-top: 20px;
 }
 
+.navitems {
+  display: inline-flex;
+  list-style: none;
+}
+
+.navbar{
+  display: inline;
+  align-content: space-between;
+}
+.navitems a{
+  color: #ffffff;
+}
+
+
 
 .content {
   height: 400px;
   margin-top: 50px;
   background-color: green;
 }
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
