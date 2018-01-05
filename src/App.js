@@ -3,6 +3,7 @@ import NavContainer from './Components/NavContainer.js';
 import EventsContainer from './Components/EventsContainer.js';
 import AboutContainer from './Components/AboutContainer.js';
 import ResourcesContainer from './Components/ResourcesContainer.js';
+import DonateContainer from './Components/DonateContainer.js';
 import './App.css';
 
 import {
@@ -24,39 +25,46 @@ class App extends Component {
           <img src="https://aaronopia.files.wordpress.com/2016/11/goddess-lady-justice-statue.jpg" className="App-logo" alt="logo" />
 
 
-
-          <div className="navbar">
-            <ul className="navitems">
-            <li><Link to="/about">About Us</Link></li>
-            <li><Link to="/resources">Resources</Link></li>
-            <li><Link to="/events">Get Involved</Link></li>
-            <li><Link to="/donate">Donate</Link></li>
-            </ul>
+          <nav className="navbar">
 
 
-          </div>
+            <li className="nav-item"><Link to="/about">About Us</Link></li>
+            <li className="nav-item"><Link to="/resources">Resources</Link></li>
+            <li className="nav-item"><Link to="/events">Get Involved</Link></li>
+            <li className="nav-item"><Link to="/donate">Donate</Link></li>
+
+
+          </nav>
+
 
             <div className="row">
-            <div className="col-md">
+            <div className="col-lg">
               <h1 className="App-title"><Link to="/">1881 Initiative</Link></h1>
             </div>
 
-            <div className="col-md">
+            <div className="col-lg">
               <h3>Committed to Lady AGs</h3>
             </div>
 
 
           </div>
+          
+
+
+
 
         </header>
 
-        <body>
+
+
           <div className="content">
+
           <Route path="/about" component={AboutContainer} />
           <Route path="/resources" component={ResourcesContainer} />
           <Route path="/events" component={EventsContainer} />
+          <Route path="/donate" component={DonateContainer} />
           </div>
-        </body>
+
 
         </div>
       </div>

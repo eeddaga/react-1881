@@ -11,8 +11,10 @@
 }
 
 .App-header {
-  background-color: #222;
+
+  background-color: #B34C50;
   height: 150px;
+  width: auto;
   padding: 20px;
   color: white;
 }
@@ -28,16 +30,18 @@
   padding-top: 20px;
 }
 
-.navitems {
+.nav-item {
   display: inline-flex;
   list-style: none;
 }
 
 .navbar{
   display: inline;
-  align-content: space-between;
+  text-align: right;
+  text-transform: uppercase;
+
 }
-.navitems a{
+.nav-item a{
   color: #ffffff;
 }
 
@@ -46,7 +50,7 @@
 .content {
   height: 400px;
   margin-top: 50px;
-  background-color: green;
+  background-color: #F2F2F2;
 }
 
 @keyframes App-logo-spin {
