@@ -56,9 +56,11 @@ class App extends Component {
           </div>
 
 
-          <footer>
-          &copy; DAGA 2018
-          </footer>
+          {/*
+            <footer>
+            &copy; DAGA 2018
+            </footer>
+          */}
 
 
         </div>

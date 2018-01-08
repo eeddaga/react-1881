@@ -1,14 +1,8 @@
-
-.about-container {
+.donate-container {
   position: absolute;
   background-color: #f0d3dd;
   height: auto;
-  width: 1110px;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.about-container p {
-  text-align: center;
-  padding: 40px;
+  width: 1110px;
 }

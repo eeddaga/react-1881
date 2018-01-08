@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
+import './EventsContainer.css';
 
 class EventsContainer extends Component {
   render (){
     return (
-      <div>
+      <div className="events-container">
       <h1>Calendar of Events</h1>
 
 
