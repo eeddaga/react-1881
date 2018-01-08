@@ -44,23 +44,30 @@ class App extends Component {
 
           <div className="content">
 
+          <div className="text-area">
+            <Route path="/about" component={AboutContainer} />
+            <Route path="/resources" component={ResourcesContainer} />
+            <Route path="/events" component={EventsContainer} />
+            <Route path="/donate" component={DonateContainer} />
+          </div>
+
           <img className="hero" src="/liberty.jpg" />
 
-          <Route path="/about" component={AboutContainer} />
-          <Route path="/resources" component={ResourcesContainer} />
-          <Route path="/events" component={EventsContainer} />
-          <Route path="/donate" component={DonateContainer} />
+
+
 
 
 
           </div>
 
 
-          {/*
-            <footer>
-            &copy; DAGA 2018
-            </footer>
-          */}
+
+            {/*
+              <footer>
+              &copy; DAGA 2018
+              </footer>
+            */}
+
 
 
         </div>

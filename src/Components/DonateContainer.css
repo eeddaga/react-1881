@@ -1,8 +1,17 @@
 .donate-container {
   position: absolute;
+  background: url("https://cdn.stocksnap.io/img-thumbs/960w/UTHL4VX1AY.jpg") no-repeat center;
+  background-size: cover;
   background-color: #f0d3dd;
   height: auto;
+  width: 1110px;
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 1110px;
+}
+
+.donate-container-text {
+  background-color: rgba(242,242,242,0.4);
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
 }
