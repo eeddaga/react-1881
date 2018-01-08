@@ -11,7 +11,8 @@ import {
   BrowserRouter as Router,
   Route,
   Link,
-  Redirect
+  Redirect,
+  Switch
 } from 'react-router-dom'
 
 
@@ -44,17 +45,19 @@ class App extends Component {
 
           <div className="content">
 
+
+          {/*<img className="hero" src="/liberty.jpg" />*/}
+
+
           <div className="text-area">
+          <Switch>
+            <Route exact path="/" component={Home} />
             <Route path="/about" component={AboutContainer} />
             <Route path="/resources" component={ResourcesContainer} />
             <Route path="/events" component={EventsContainer} />
             <Route path="/donate" component={DonateContainer} />
+          </Switch>
           </div>
-
-          <img className="hero" src="/liberty.jpg" />
-
-
-
 
 
 
