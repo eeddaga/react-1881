@@ -1,8 +1,11 @@
 .App {
   text-align: center;
   padding: 30px;
-  background-color: #B4DFEE;
-  height: 700px;
+  background: #B4DFEE;
+  background-size: cover;
+
+
+
 }
 
 .App-logo {
@@ -55,13 +58,29 @@
   text-decoration: none;
 }
 
-
+.main-image {
+  width: 500px;
+  height: 350px;
+}
 
 .content {
+  position: relative;
   height: 400px;
-  margin-top: 50px;
+  margin-top: 30px;
   background-color: #F2F2F2;
+
 }
+
+.hero {
+  width: 1110px;
+  height: 400px;
+}
+
+.footer {
+  margin-top: 90px;
+}
+
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

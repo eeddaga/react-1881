@@ -1,0 +1,13 @@
+
+.about-container {
+  position: absolute;
+  z-index: 10;
+  background-color: #f0d3dd;
+  height: auto;
+
+}
+
+/* .about-container p {
+  text-align: center;
+  padding: 40px;
+} */
