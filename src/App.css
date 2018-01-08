@@ -50,6 +50,13 @@
   font-family: 'Cinzel Decorative', cursive;
 }
 
+.marquee a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
 .content {
   height: 400px;
   margin-top: 50px;

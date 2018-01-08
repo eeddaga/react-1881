@@ -46,7 +46,7 @@ class App extends Component {
 
             */}
             <div className="marquee">
-            <h2>1881 Initiative</h2>
+            <h2><Link to="/">1881 Initiative</Link></h2>
             </div>
 
 
