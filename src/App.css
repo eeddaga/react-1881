@@ -12,21 +12,24 @@
 
 .right-side i{
   padding-left: 20px;
+  padding-top: 20px;
   text-shadow: 2px 2px gray;
   color: white;
+  margin-top: 10px;
 }
 
 
 /*DONATE button*/
 .right-side button{
   margin-left: 20px;
-  padding: 8px;
+  padding: 6px;
   background-color: #94C6CA;
   border-style: outset;
   border-radius: 5px;
   color: white;
   letter-spacing: 2px;
   text-shadow: 2px 2px gray;
+  font-family: 'Comfortaa', cursive;
 }
 
 .App-logo {
@@ -38,23 +41,24 @@
 }
 
 .App-header {
-
   background-color: #E06064;
   height: 150px;
   width: auto;
-  padding: 20px;
+  padding: 10px;
   color: white;
   border: 2px solid #ffffff;
+
 }
 
 .marquee {
-  font-family: 'Cinzel Decorative', cursive;
-
+  font-family: 'Comfortaa', cursive;
+  float: left;
 }
 
 .marquee a{
   color: #ffffff;
   text-decoration: none;
+  font-size: 40px;
 }
 
 .nav-item {
@@ -65,8 +69,11 @@
 .navbar{
   display: inline;
   float: left;
+  clear: both;
   text-align: right;
   text-transform: uppercase;
+  font-family: 'Comfortaa', cursive;
+  margin-top: 20px;
 
 }
 .nav-item a{
@@ -88,21 +95,6 @@
 }
 
 
-
-.clearfix {
-  content: ".";
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
-}
-
-/* .main-image {
-  position: fixed;
-  width: 500px;
-  height: 350px;
-} */
-
 .content {
   position: relative;
   /* height: 400px; */
@@ -111,6 +103,12 @@
   margin-top: 30px;
   background-color: #F2F2F2;
 
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .hero {
@@ -122,9 +120,13 @@
 
 }
 
-/* .footer {
-  clear: both;
-} */
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: inherit;
+  background: orange;
+}
 
 
 

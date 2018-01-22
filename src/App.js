@@ -5,6 +5,7 @@ import AboutContainer from './Components/AboutContainer.js';
 import ResourcesContainer from './Components/ResourcesContainer.js';
 import DonateContainer from './Components/DonateContainer.js';
 import Home from './Components/Home.js';
+import Footer from './Components/Footer.js';
 import './App.css';
 
 import {
@@ -27,7 +28,7 @@ class App extends Component {
         <header className="App-header">
 
             <div className="marquee">
-              <h2><Link to="/">1881 Initiative</Link></h2>
+              <h2><Link to="/">the 1881 Initiative</Link></h2>
             </div>
 
             <nav className="navbar">
@@ -38,8 +39,8 @@ class App extends Component {
             </nav>
           {/*  <img src="https://aaronopia.files.wordpress.com/2016/11/goddess-lady-justice-statue.jpg" className="App-logo" alt="logo" /> */}
           <div className="right-side">
-          <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-4x" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/"><i class="fa fa-twitter fa-4x" aria-hidden="true"></i></a>
+              <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
           <a href="https://secure.actblue.com/"><button type="button">DONATE</button></a>
           </div>
 
@@ -48,30 +49,24 @@ class App extends Component {
 
 
 
+
           <div className="content">
 
+            <div className="text-area">
+              <Switch>
+                <Route exact path="/" component={Home} />
+                <Route path="/about" component={AboutContainer} />
+                <Route path="/resources" component={ResourcesContainer} />
+                <Route path="/events" component={EventsContainer} />
+                <Route path="/donate" component={DonateContainer} />
+              </Switch>
 
-          <div className="text-area">
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={AboutContainer} />
-            <Route path="/resources" component={ResourcesContainer} />
-            <Route path="/events" component={EventsContainer} />
-            <Route path="/donate" component={DonateContainer} />
-          </Switch>
+
+            </div>
           </div>
 
 
 
-          </div>
-
-
-
-            {/*
-              <footer>
-              &copy; DAGA 2018
-              </footer>
-            */}
 
 
 

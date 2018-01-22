@@ -7,7 +7,6 @@
   margin-top: 20px;
   margin-bottom: 20px;
   border: 2px solid #ffffff;
-
 }
 
 .home-container-text {
@@ -24,8 +23,10 @@
   width: 350px;
   float: right;
   margin-right: 30px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .home-content h3{
+  font-family: 'Comfortaa', cursive;
   text-transform: uppercase;
 }

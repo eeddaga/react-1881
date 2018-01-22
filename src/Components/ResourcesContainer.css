@@ -1,17 +1,29 @@
 .resources-container {
   position: absolute;
-  background: url("https://cdn.stocksnap.io/img-thumbs/960w/UTHL4VX1AY.jpg") no-repeat center;
+  background: url("../liberty-left.jpg") no-repeat center;
   background-size: cover;
-  background-color: #f0d3dd;
-  height: auto;
+  height: 620px;
   width: 1110px;
   margin-top: 20px;
   margin-bottom: 20px;
+  border: 2px solid #ffffff;
 }
 
-.resources-container-text {
+.resources-container-text p {
   background-color: rgba(242,242,242,0.4);
   text-align: center;
   padding: 20px;
   margin: 20px;
+  border: 2px solid #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.resources-container-text h1{
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  background-color: rgba(242,242,242,0.4);
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #ffffff;
 }
