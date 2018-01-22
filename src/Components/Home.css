@@ -3,7 +3,7 @@
   background: url("../liberty-left.jpg") no-repeat center;
   background-size: cover;
 
-  height: 900px;
+  height: 620px;
   width: 1110px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -13,11 +13,13 @@
 .home-container-text {
   background-color: rgba(242,242,242,0.4);
   text-align: center;
-  height: 600px;
+  height: 580px;
   padding: 20px;
   margin: 20px;
+
 }
 
 .home-content {
   width: 300px;
+  float: right;
 }

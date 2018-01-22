@@ -26,11 +26,12 @@
 
 .App-header {
 
-  background-color: #B34C50;
+  background-color: #E06064;
   height: 150px;
   width: auto;
   padding: 20px;
   color: white;
+  border: 2px solid #ffffff;
 }
 
 .marquee {
