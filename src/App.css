@@ -6,14 +6,27 @@
 
 
 }
-
-.right-side i{
-  padding-right: 20px;
-  padding-left: 20px;
+.right-side {
+  float: right;
 }
 
+.right-side i{
+  padding-left: 20px;
+  text-shadow: 2px 2px gray;
+  color: white;
+}
+
+
+/*DONATE button*/
 .right-side button{
   margin-left: 20px;
+  padding: 8px;
+  background-color: #94C6CA;
+  border-style: outset;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px gray;
 }
 
 .App-logo {
