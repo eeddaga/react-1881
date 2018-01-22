@@ -1,6 +1,7 @@
 .donate-container {
   position: absolute;
-  background: url("https://cdn.stocksnap.io/img-thumbs/960w/UTHL4VX1AY.jpg") no-repeat center;
+  /* background: url("https://cdn.stocksnap.io/img-thumbs/960w/UTHL4VX1AY.jpg") no-repeat center; */
+  background: url("https://images.unsplash.com/photo-1454694220579-9d6672b1ec2a?auto=format&fit=crop&w=664&q=80") no-repeat center;
   background-size: cover;
   background-color: #f0d3dd;
   height: auto;
@@ -14,4 +15,9 @@
   text-align: center;
   padding: 20px;
   margin: 20px;
+}
+
+.donate-container-text a {
+  text-decoration: none;
+  color: #ffffff;
 }

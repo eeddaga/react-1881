@@ -36,7 +36,8 @@ class App extends Component {
               <li className="nav-item"><Link to="/events">Get Involved</Link></li>
               <li className="nav-item"><Link to="/donate">Donate</Link></li>
             </nav>
-            <img src="https://aaronopia.files.wordpress.com/2016/11/goddess-lady-justice-statue.jpg" className="App-logo" alt="logo" />
+          {/*  <img src="https://aaronopia.files.wordpress.com/2016/11/goddess-lady-justice-statue.jpg" className="App-logo" alt="logo" /> */}
+          
 
 
         </header>
@@ -44,9 +45,6 @@ class App extends Component {
 
 
           <div className="content">
-
-
-          {/*<img className="hero" src="/liberty.jpg" />*/}
 
 
           <div className="text-area">
