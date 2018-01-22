@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavContainer from './Components/NavContainer.js';
+// import NavContainer from './Components/NavContainer.js';
 import EventsContainer from './Components/EventsContainer.js';
 import AboutContainer from './Components/AboutContainer.js';
 import ResourcesContainer from './Components/ResourcesContainer.js';

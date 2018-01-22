@@ -1,17 +1,23 @@
 .home-container {
   position: absolute;
-  background: url("https://cdn.stocksnap.io/img-thumbs/960w/UJ6RUP91HY.jpg") no-repeat center;
+  background: url("../liberty-left.jpg") no-repeat center;
   background-size: cover;
-  background-color: #f0d3dd;
-  height: auto;
+
+  height: 900px;
   width: 1110px;
   margin-top: 20px;
   margin-bottom: 20px;
+
 }
 
 .home-container-text {
   background-color: rgba(242,242,242,0.4);
   text-align: center;
+  height: 600px;
   padding: 20px;
   margin: 20px;
+}
+
+.home-content {
+  width: 300px;
 }
