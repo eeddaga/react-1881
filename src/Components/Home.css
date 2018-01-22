@@ -2,11 +2,11 @@
   position: absolute;
   background: url("../liberty-left.jpg") no-repeat center;
   background-size: cover;
-
   height: 620px;
   width: 1110px;
   margin-top: 20px;
   margin-bottom: 20px;
+  border: 2px solid #ffffff;
 
 }
 
@@ -16,10 +16,16 @@
   height: 580px;
   padding: 20px;
   margin: 20px;
+  border: 2px solid #ffffff;
 
 }
 
 .home-content {
-  width: 300px;
+  width: 350px;
   float: right;
+  margin-right: 30px;
+}
+
+.home-content h3{
+  text-transform: uppercase;
 }
