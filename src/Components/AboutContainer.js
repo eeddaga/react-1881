@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import './AboutContainer.css';
+import TemplateContainer from './TemplateContainer.js';
+
 
 import {
   BrowserRouter as Router,
   Route,
   Link,
   Redirect
-} from 'react-router-dom'
+} from 'react-router-dom';
+
+
+
 
 class AboutContainer extends Component {
   render(){
@@ -19,6 +24,8 @@ class AboutContainer extends Component {
         <p>
           Lorem ipsum dolor amet you probably heard of them mlkshk echo park paleo, cold-pressed post-ironic tilde lyft etsy whatever. Poutine direct trade paleo, air plant intelligentsia messenger bag ramps fashion axe waistcoat hella pitchfork cloud bread occupy neutra pickled. Austin waistcoat bitters raclette asymmetrical prism next level, single-origin coffee thundercats biodiesel readymade forage selfies mlkshk. Tilde whatever 3 wolf moon wolf, neutra franzen lyft snackwave cred marfa copper mug. Iceland yr tousled, four loko pour-over wayfarers knausgaard next level man braid wolf kinfolk authentic fixie.
         </p>
+        {/*TEMPORARY HOLDING AREA FOR POSTS TEMPLATE*/}
+        <TemplateContainer />
       </div>
     )
   }
