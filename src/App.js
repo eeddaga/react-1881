@@ -7,6 +7,7 @@ import DonateContainer from './Components/DonateContainer.js';
 import Home from './Components/Home.js';
 import Footer from './Components/Footer.js';
 import './App.css';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import {
   BrowserRouter as Router,
@@ -21,6 +22,7 @@ class App extends Component {
   render() {
     return (
       <Router>
+      <MuiThemeProvider>
       <div className="App">
         <div className="container">
 
@@ -72,6 +74,7 @@ class App extends Component {
 
         </div>
       </div>
+      </MuiThemeProvider>
       </Router>
 
     );
