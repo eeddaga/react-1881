@@ -41,7 +41,7 @@ class App extends Component {
           <div className="right-side">
               <a href="https://www.facebook.com/" target="_blank"><i className="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
               <a href="https://twitter.com/" target="_blank"><i className="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-              <a href="https://secure.actblue.com/" target="_blank"><button type="button">DONATE</button></a>
+              <button type="button"><a href="https://secure.actblue.com/" target="_blank">DONATE</a></button>
           </div>
 
 
