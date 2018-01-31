@@ -39,9 +39,9 @@ class App extends Component {
             </nav>
           {/*  <img src="https://aaronopia.files.wordpress.com/2016/11/goddess-lady-justice-statue.jpg" className="App-logo" alt="logo" /> */}
           <div className="right-side">
-              <a href="https://www.facebook.com/" target="_blank"><i className="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-              <a href="https://twitter.com/" target="_blank"><i className="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-              <button type="button"><a href="https://secure.actblue.com/" target="_blank">DONATE</a></button>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+              <button type="button"><a href="https://secure.actblue.com/" target="_blank" rel="noopener noreferrer">DONATE</a></button>
           </div>
 
 
